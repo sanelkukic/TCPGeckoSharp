@@ -6,7 +6,7 @@
 > Also, credits to the creator of Gecko dNet for the original source.
 
 ## How to use
-- Download from [here](https://github.com/ASHTeam/TCPGeckoSharp/releases/latest)
+- Download from [here](https://github.com/Hexexpeck/TCPGeckoSharp/releases/latest)
 - Add the reference to your project
 - Add `using TCPGeckoSharp;` to the list of assembly(s) used by your project
 - Declare it by using `public TCPGecko gecko;` and `gecko = new TCPGecko("ip here", 7331);`
