@@ -18,3 +18,51 @@
 - Open this in VS
 - Go to Build tab
 - Click Build Solution
+
+## Example
+```csharp
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.IO;
+using System.Linq;
+using System.Resources;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Net;
+using System.Net.Sockets;
+using System.Reflection;
+using TCPGeckoSharp;
+
+namespace YourAppHere
+{
+    public partial class MainForm : Form
+    {
+    public TCPGecko gecko;
+    public MainForm()
+    {
+        InitializeComponent();
+    }
+    void connectButtonClick(object sender, EventArgs e)
+    {
+        try
+        {
+            gecko.Connect("ip here", 7331);
+            // or you could do gecko.Connect(inputBox.Text, 7331);
+        }
+        catch (ETCPGeckoException)
+        {
+            MessageBox.Show("Could not find TCPGecko running on Wii U.");
+        }
+        catch (System.Net.Sockets.SocketException)
+        {
+            MessageBox.Show("Invalid IP.");
+        }
+    }
+  }
+}
+```
+or something like that, this was just an example for using a Windows Application instead of a commandline
