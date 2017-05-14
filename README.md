@@ -5,7 +5,10 @@
 
 > Also, credits to the creator of Gecko dNet for the original source.
 
-> This library is [now available on NuGet](https://www.nuget.org/packages/TCPGeckoSharp/)!
+> This library is [now available on NuGet](https://www.nuget.org/packages/TCPGeckoSharp/)! Install it using the [Package Manager Console](https://docs.nuget.org/docs/start-here/using-the-package-manager-console):
+```
+PM> Install-Package TCPGeckoSharp
+```
 
 ## How to use
 - Download from [here](https://github.com/Hexexpeck/TCPGeckoSharp/releases/latest) or [from NuGet](https://www.nuget.org/packages/TCPGeckoSharp/)
