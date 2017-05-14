@@ -5,8 +5,10 @@
 
 > Also, credits to the creator of Gecko dNet for the original source.
 
+> This library is [now available on NuGet](https://www.nuget.org/packages/TCPGeckoSharp/)!
+
 ## How to use
-- Download from [here](https://github.com/Hexexpeck/TCPGeckoSharp/releases/latest)
+- Download from [here](https://github.com/Hexexpeck/TCPGeckoSharp/releases/latest) or [from NuGet](https://www.nuget.org/packages/TCPGeckoSharp/)
 - Add the reference to your project
 - Add `using TCPGeckoSharp;` to the list of assembly(s) used by your project
 - Declare it by using `public TCPGecko gecko;` and `gecko = new TCPGecko("ip here", 7331);`
